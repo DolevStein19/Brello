@@ -50,7 +50,7 @@ Set up environment variables
 Create a .env file in the root directory
 Add the following variables:
 
-CopyMONGODB_URI=mongodb://localhost:27017/brello
+MONGODB_URI=mongodb://localhost:27017/brello
 JWT_SECRET=your_jwt_secret
 
 Start the development server
@@ -63,7 +63,7 @@ Frontend: http://localhost:3000
 Backend: http://localhost:3001
 
 Project Structure
-CopyBrello/
+Brello/
 ├── frontend/           # Next.js frontend
 │   ├── src/
 │   │   ├── app/        # App Router components
