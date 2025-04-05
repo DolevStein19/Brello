@@ -1,0 +1,17 @@
+{
+  "name": "brello",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn dev:frontend\" \"yarn dev:backend\"",
+    "dev:frontend": "cd frontend && yarn dev",
+    "dev:backend": "cd backend && yarn dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
