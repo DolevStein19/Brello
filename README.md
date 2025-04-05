@@ -32,30 +32,31 @@ Node.js (v16+)
 Yarn or npm
 MongoDB (local or Atlas)
 
-Installation
+**Installation**
 
-Clone the repository
+1. Clone the repository
 
-bashCopygit clone https://github.com/yourusername/brello.git
+bash
+git clone https://github.com/DolevStein19/brello.git
 cd brello
 
-Install dependencies
+2. Install dependencies
 
-bashCopyyarn install
+bash
+yarn install
 
 Set up environment variables
 
 Create a .env file in the root directory
 Add the following variables:
 
-
-
 CopyMONGODB_URI=mongodb://localhost:27017/brello
 JWT_SECRET=your_jwt_secret
 
 Start the development server
 
-bashCopyyarn dev
+bash
+yarn dev
 The application will be available at:
 
 Frontend: http://localhost:3000
